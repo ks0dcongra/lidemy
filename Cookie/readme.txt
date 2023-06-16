@@ -1,0 +1,1 @@
+Lidemy上課程式碼到session為止。

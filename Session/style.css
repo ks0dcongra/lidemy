@@ -1,0 +1,112 @@
+*{
+    box-sizing:border-box
+}
+
+body{
+    margin:0;
+    background-color:#f7f7f7;
+}
+
+.warning{
+    background-color: pink;
+    color:#a20606;
+    padding:10px;
+    text-align:center;
+}
+.board{
+    background:white;
+    width:100%;
+    max-width: 700px;
+    margin:20px auto;
+    padding:10px 30px;
+    box-shadow: 1px 1px 3px #e8e8e8;
+    border-radius: 5px;
+}
+
+.board_new-comment-form textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid black;
+    box-sizing:border-box;
+}
+
+
+.board_nickname{
+    margin-bottom:10px
+}
+
+.board_nickname input{
+    border:1px solid black;
+    padding:5px;
+}
+
+.board_submit_btn{
+    padding:10px;
+    border:1px solid black;
+    border-radius:5px;
+    width:100px;
+    color:#583c63;
+    font-size:20px;
+    background-color: white;
+}
+
+.board_hr{
+    margin: 10px auto;
+    height:1px; 
+    background:#e8e8e8;
+    max-width: 95%;
+
+}
+
+.card{
+    margin:20px 0;
+    min-height:70px;
+    display:flex; /* 左右排版 */
+}
+
+.card_avatar{
+    min-width:50px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:#e2dffb;
+}
+
+.card_body{
+    margin-left:10px;
+}
+
+.card_content{
+    margin-top:8px;
+    max-width:100%;
+    word-break: break-word;
+    white-space: pre-line;
+}
+
+.card_author{
+    color: #5c9edc;
+    font-weight:bold;
+    max-width: 100px;
+    display: inline;
+    overflow: hidden;
+}
+
+.card_time{
+    color:gray;
+}
+
+.error{
+    color:red;
+}
+
+.board_btn{
+    padding:10px 20px;
+    border:1px solid black;
+    border-radius:5px;
+    color:black;
+    font-size:20px;
+    background-color: white;
+    min-width:20px;
+    text-decoration: none;
+    display: inline-block;
+}

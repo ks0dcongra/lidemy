@@ -1,0 +1,19 @@
+.container{
+  width:1024px;
+  margin: 0 auto;
+  text-align:center;
+
+}
+
+.job{
+  border:1px solid grey;
+  padding:10px;
+  width:600px;
+  margin: 0 auto;
+  text-align:center;
+
+}
+
+.job ~ .job {
+  margin-top:20px;
+}
